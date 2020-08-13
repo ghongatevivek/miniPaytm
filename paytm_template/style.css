@@ -1,0 +1,21 @@
+.navbar-brand{
+	font-size: 2em;
+	font-weight: bold;
+}
+.back-img{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 85vh;
+	border-radius: 0px;
+	margin-top: 74px;
+}
+
+.navbar #myMenu .custom-nav .nav-item a{
+	color: #17a2b8;			
+}
+.welcome{
+			float: right;
+			margin-left: 100px;
+		}
+

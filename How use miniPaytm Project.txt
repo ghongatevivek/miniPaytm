@@ -1,0 +1,1 @@
+In This folder one paytm_db.sql file in this file two table use for this project.

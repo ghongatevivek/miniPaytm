@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		body{
+			background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/b.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 100vh;
+			
+		}
+		#frm{
+			border-bottom-left-radius: 100px;
+			/*box-shadow: 5px 6px 5px #fff;*/
+    		border-top-right-radius: 100px;
+			background: transparent;
+   			background-color: #fff;
+    		background: transparent;
+    		border: 2px solid #fff;
+		}
+		
+	</style>
+</head>
+<body>
+	<!-- start Navigation -->
+	<nav class="navbar navbar-expand-sm navbar-dark bg-light fixed-top">
+		<a href="index.html" class="navbar-brand text-info">Paytm</a>
+		<!-- <span class="navbar-text text-info">Hairstylish</span> -->
+		<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse " id="myMenu">
+			<ul class="navbar-nav pl-5">
+				<li class="nav-item"><a href="index.html" class="nav-link text-info">Home</a></li>
+				<li class="nav-item"><a href="login.html" class="nav-link text-info">Login</a></li>
+				<li class="nav-item"><a href="addMoney.html" class="nav-link text-info">Add Money</a></li>
+				<li class="nav-item"><a href="sendMoney.html" class="nav-link text-info">Send Money</a></li>
+				<li class="nav-item"><a href="transaction.html" class="nav-link text-info">All Transaction</a></li>	
+				<li class="nav-item"><a href="transaction.html" class="nav-link text-info">Logout</a></li>		
+			</ul>
+		</div>
+	</nav> -->
+	<!-- End Navigation -->
+
+	
+		<div class="container back-img">
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-sm-4 ">
+					<form method="post" class="shadow-lg p-4 mt-5 bg-secoudary" id="frm">
+						<h3 class="text-light text-center">User Login </h3>
+						<div class="form-group mt-3">
+							<label class="text-light" for="uname">Email Id</label>
+							<input type="text" name="" id="uname" class="form-control" placeholder="Enter User Email id">
+						</div>
+
+						<div class="form-group">
+							<label class="text-light" for="upass">Password</label>
+							<input type="password" id="upass" name="" class="form-control" placeholder="Enter User Password">
+						</div>
+
+						<div class="form-group">
+							<input type="submit" value="Login" name="btn" class="btn btn-block btn-info">
+						</div>
+
+						<div class="form-group">
+							<p class="text-light text-center">Don't have an account ? <a href="register.html">Register</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	
+	
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
